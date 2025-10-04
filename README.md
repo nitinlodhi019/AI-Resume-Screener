@@ -44,13 +44,13 @@ AI Resume Screener/
 ## 🛠️ Tech Stack
 Category_______________________Technology
 
-**Frontend**___________________React, TypeScript, Tailwind CSS, Lucide Icons
+**Frontend**_______________________React, TypeScript, Tailwind CSS, Lucide Icons
 
-**Backend**____________________Flask(Python), Supabase (PostgreSQL), NLTK, Sentence Transformers, scikit-learn
+**Backend**________________________Flask(Python), Supabase (PostgreSQL), NLTK, Sentence Transformers, scikit-learn
 
-**Document Processing**________PyPDF2, python-docx
+**Document Processing**____________PyPDF2, python-docx
 
-**AI/ML Libraries**____________sentence-transformers, scikit-learn, nltk, numpy
+**AI/ML Libraries**________________sentence-transformers, scikit-learn, nltk, numpy
 
 ## 📋 Prerequisites
 Python 3.8+

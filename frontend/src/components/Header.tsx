@@ -25,7 +25,7 @@ const Header: React.FC = () => {
             </div>
             <div>
               <span className="text-lg md:text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                EpochFolio
+                Talentify
               </span>
               <div className="text-xs text-gray-500 font-medium hidden md:block">AI-Powered Hiring</div>
             </div>

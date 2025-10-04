@@ -320,7 +320,7 @@ const AuthPage: React.FC = () => {
                 </div>
                 <div>
                   <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                    EpochFolio
+                    Talentify
                   </span>
                   <div className="text-xs text-gray-500 font-medium">AI-Powered Hiring</div>
                 </div>
@@ -482,7 +482,7 @@ const AuthPage: React.FC = () => {
                 </div>
                 <div>
                   <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                    EpochFolio
+                    Talentify
                   </span>
                   <div className="text-xs text-gray-500 font-medium">AI-Powered Hiring</div>
                 </div>
@@ -611,7 +611,7 @@ const AuthPage: React.FC = () => {
                 </div>
                 <div>
                   <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                    EpochFolio
+                    Talentify
                   </span>
                   <div className="text-xs text-gray-500 font-medium">AI-Powered Hiring</div>
                 </div>
@@ -710,7 +710,7 @@ const AuthPage: React.FC = () => {
               </div>
               <div>
                 <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  EpochFolio
+                  Talentify
                 </span>
                 <div className="text-xs text-gray-500 font-medium">AI-Powered Hiring</div>
               </div>

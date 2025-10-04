@@ -71,7 +71,7 @@ const TopNSelection: React.FC = () => {
           <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
             <FileText size={40} className="text-white" />
           </div>
-          <h1 className="text-2xl font-bold text-gray-800">EpochFolio</h1>
+          <h1 className="text-2xl font-bold text-gray-800">Talentify</h1>
         </div>
 
         <div className="progress-bar">

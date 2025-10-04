@@ -65,7 +65,7 @@ const LandingPage: React.FC = () => {
       name: "Sarah Johnson",
       role: "VP of Talent at Microsoft",
       company: "Microsoft",
-      content: "EpochFolio revolutionized our hiring process. We've reduced time-to-hire by 80% while improving candidate quality dramatically. The AI insights are incredibly accurate.",
+      content: "Talentify revolutionized our hiring process. We've reduced time-to-hire by 80% while improving candidate quality dramatically. The AI insights are incredibly accurate.",
       rating: 5,
       avatar: "SJ",
       results: "80% faster hiring, 60% better quality"
@@ -83,7 +83,7 @@ const LandingPage: React.FC = () => {
       name: "Emily Rodriguez",
       role: "Founder & CEO at TechStart",
       company: "TechStart",
-      content: "As a startup, EpochFolio gives us enterprise-level hiring capabilities. We compete with Fortune 500 companies for top talent and win. Absolutely essential.",
+      content: "As a startup, Talentify gives us enterprise-level hiring capabilities. We compete with Fortune 500 companies for top talent and win. Absolutely essential.",
       rating: 5,
       avatar: "ER",
       results: "500% increase in qualified candidates"
@@ -92,7 +92,7 @@ const LandingPage: React.FC = () => {
       name: "David Kim",
       role: "CHRO at Amazon",
       company: "Amazon",
-      content: "EpochFolio's analytics helped us identify hiring patterns we never knew existed. The ROI has been phenomenal - over 300% in the first year alone.",
+      content: "Talentify's analytics helped us identify hiring patterns we never knew existed. The ROI has been phenomenal - over 300% in the first year alone.",
       rating: 5,
       avatar: "DK",
       results: "300% ROI, data-driven decisions"
@@ -184,7 +184,7 @@ const LandingPage: React.FC = () => {
               </div>
               <div>
                 <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  EpochFolio
+                  Talentify
                 </span>
                 <div className="text-xs text-gray-500 font-medium">AI-Powered Hiring</div>
               </div>
@@ -424,7 +424,7 @@ const LandingPage: React.FC = () => {
               <span className="bg-gradient-to-r from-yellow-600 to-orange-600 bg-clip-text text-transparent"> Leaders</span>
             </h2>
             <p className="text-xl text-gray-600">
-              See why top companies choose EpochFolio for their hiring needs
+              See why top companies choose Talentify for their hiring needs
             </p>
           </div>
 
@@ -573,7 +573,7 @@ const LandingPage: React.FC = () => {
                 Transform Your Hiring Today
               </h2>
               <p className="text-xl mb-10 opacity-90 max-w-3xl mx-auto">
-                Join 2,500+ companies using EpochFolio to find perfect candidates 95% faster. 
+                Join 2,500+ companies using Talentify to find perfect candidates 95% faster.
                 Start your free trial and see results in minutes, not weeks.
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -605,7 +605,7 @@ const LandingPage: React.FC = () => {
                   <FileText size={24} className="text-white" />
                 </div>
                 <div>
-                  <span className="text-2xl font-bold">EpochFolio</span>
+                  <span className="text-2xl font-bold">Talentify</span>
                   <div className="text-sm text-gray-400">AI-Powered Hiring</div>
                 </div>
               </div>
@@ -663,7 +663,7 @@ const LandingPage: React.FC = () => {
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="text-gray-400">
-                © 2024 EpochFolio. All rights reserved.
+                © 2024 Talentify. All rights reserved.
               </div>
               <div className="flex gap-6 text-gray-400 text-sm">
                 <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>

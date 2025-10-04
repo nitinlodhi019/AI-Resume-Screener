@@ -42,15 +42,17 @@ AI Resume Screener/
 - **Multi-Format File Processing**: Extracts text seamlessly from PDF and DOCX files.
 
 ## 🛠️ Tech Stack
-Category_______________________Technology
+```bash
+Category                Technology
 
-**Frontend**_______________________React, TypeScript, Tailwind CSS, Lucide Icons
+**Frontend**                React, TypeScript, Tailwind CSS, Lucide Icons
 
-**Backend**________________________Flask(Python), Supabase (PostgreSQL), NLTK, Sentence Transformers, scikit-learn
+**Backend**                 Flask(Python), Supabase (PostgreSQL), NLTK, Sentence Transformers, scikit-learn
 
-**Document Processing**____________PyPDF2, python-docx
+**Document Processing**     PyPDF2, python-docx
 
-**AI/ML Libraries**________________sentence-transformers, scikit-learn, nltk, numpy
+**AI/ML Libraries**         sentence-transformers, scikit-learn, nltk, numpy
+```
 
 ## 📋 Prerequisites
 - Python 3.8+

@@ -1,15 +1,16 @@
 # Python
-venv/
+backend/venv/
 __pycache__/
 *.pyc
 
-# Node
-node_modules/
-dist/
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
 .DS_Store
 
 # Environment
-.env
+backend/.env
 
-# Uploads
-uploads/
+# Uploads (heavy files)
+backend/uploads/

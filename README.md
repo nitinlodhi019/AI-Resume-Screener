@@ -3,6 +3,15 @@ A full-stack web application that uses advanced AI, NLP, and BERT models to inte
 
 - [Demo Video](https://www.linkedin.com/posts/nitinkumar2506_epochfolio-renusharmafoundation-activity-7355673163512336384-hxnZ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEaE-e4BBF6hExNngmMqGMd50BjwXQTOM_4)
 
+## Some Images
+
+<img width="1839" height="871" alt="Screenshot 2025-10-04 205834" src="https://github.com/user-attachments/assets/02bf8cc3-b209-4af0-8322-7185830e3dcf" />
+
+<img width="1838" height="923" alt="Screenshot 2025-10-04 205847" src="https://github.com/user-attachments/assets/aceab93c-4f5f-4398-beae-871c83425383" />
+
+<img width="1848" height="938" alt="Screenshot 2025-10-04 205801" src="https://github.com/user-attachments/assets/b42a58c6-9942-4e09-88aa-d6d0e73a5d99" />
+
+
 ## 📂 Project Structure
 The project is organized with a root folder containing the backend and frontend directories.
 

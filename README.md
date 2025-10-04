@@ -45,13 +45,13 @@ AI Resume Screener/
 ```bash
 Category                Technology
 
-**Frontend**                React, TypeScript, Tailwind CSS, Lucide Icons
+Frontend                React, TypeScript, Tailwind CSS, Lucide Icons
 
-**Backend**                 Flask(Python), Supabase (PostgreSQL), NLTK, Sentence Transformers, scikit-learn
+Backend                 Flask(Python), Supabase (PostgreSQL), NLTK, Sentence Transformers, scikit-learn
 
-**Document Processing**     PyPDF2, python-docx
+Document Processing     PyPDF2, python-docx
 
-**AI/ML Libraries**         sentence-transformers, scikit-learn, nltk, numpy
+AI/ML Libraries         sentence-transformers, scikit-learn, nltk, numpy
 ```
 
 ## 📋 Prerequisites
@@ -157,15 +157,15 @@ The resume screening process is a multi-stage pipeline designed for accuracy and
 ## API Endpoints
 A comprehensive RESTful API powers the application.
 ```bash
-Method	Endpoint	Description
-POST	/api/signup	Register a new user.
-POST	/api/login	Log in an existing user.
-POST	/api/verify_otp	Verify a user's email with an OTP.
-POST	/api/job_requirements	Save the job description and skills for a session.
-POST	/api/upload_resumes	Upload and process one or more resume files.
-POST	/api/screen_resumes	Run the AI screening process on uploaded resumes.
-GET	/api/dashboard_data	Fetch the ranked results of the screening.
-POST	/api/download_all_filtered_resumes	Download a .zip file of filtered resumes.
+Method	    Endpoint	                            Description
+POST	    /api/signup	                            Register a new user.
+POST	    /api/login	                            Log in an existing user.
+POST	    /api/verify_otp	                        Verify a user's email with an OTP.
+POST	    /api/job_requirements	                Save the job description and skills for a session.
+POST	    /api/upload_resumes	                    Upload and process one or more resume files.
+POST	    /api/screen_resumes	                    Run the AI screening process on uploaded resumes.
+GET	        /api/dashboard_data	                    Fetch the ranked results of the screening.
+POST	    /api/download_all_filtered_resumes	    Download a .zip file of filtered resumes.
 ```
 
 ## 🤝 Contributing

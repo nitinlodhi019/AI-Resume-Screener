@@ -24,7 +24,7 @@ AI Resume Screener/
 └── README.md
 ```
 
-## 🚀 Features
+## Features
 - **Modern UI/UX**: A clean, responsive, and intuitive interface built with React and TypeScript.
 
 - **Simple 3-Step Process**: A guided workflow: Job Setup → Upload Resumes → View Results.
@@ -64,11 +64,10 @@ Category_______________________Technology
 ## 🚀 Quick Start
 ### 1. Clone the Repository
 First, clone the project from GitHub and navigate into the root directory.
-
-Bash
-
+```bash
 git clone <your-repository-url>
 cd "AI Resume Screener"
+```
 
 ### 2. Backend Setup
 Navigate to the backend directory, create a virtual environment, and install the required Python packages.
@@ -89,8 +88,7 @@ npm install
 ```
 
 ### 4. Environment Configuration
-In the backend directory, create a .env file. This file is ignored by Git and should never be uploaded.
-
+In the backend directory, create a .env file. 
 ```bash
 # Supabase Credentials
 SUPABASE_URL=https://your-project-ref.supabase.co
@@ -104,7 +102,6 @@ SMTP_PASS=your_gmail_app_password
 ### 5. Database Setup (Supabase)
 Log in to your Supabase dashboard and run the following SQL query in the SQL Editor to create the users table.
 ```bash
-SQL
 -- Create the users table
 CREATE TABLE users (
     id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
@@ -138,7 +135,7 @@ npm run dev
 ```
 Your frontend will open in your browser, usually at http://localhost:5173.
 
-# AI/ML Pipeline Explained
+## AI/ML Pipeline Explained
 The resume screening process is a multi-stage pipeline designed for accuracy and relevance.
 
 1. Text Extraction: The system first extracts raw text from uploaded files, supporting .pdf and .docx formats.
@@ -155,9 +152,9 @@ The resume screening process is a multi-stage pipeline designed for accuracy and
     
     - Experience Match (10%): Analyzes the resume text for years of experience or keywords like "senior" to match the required experience level.
 
-# API Endpoints
+## API Endpoints
 A comprehensive RESTful API powers the application.
-
+```bash
 Method	Endpoint	Description
 POST	/api/signup	Register a new user.
 POST	/api/login	Log in an existing user.
@@ -167,7 +164,7 @@ POST	/api/upload_resumes	Upload and process one or more resume files.
 POST	/api/screen_resumes	Run the AI screening process on uploaded resumes.
 GET	/api/dashboard_data	Fetch the ranked results of the screening.
 POST	/api/download_all_filtered_resumes	Download a .zip file of filtered resumes.
+```
 
-Export to Sheets
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please fork the repository, create a new feature branch, and open a pull request.

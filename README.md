@@ -67,7 +67,7 @@ AI/ML Libraries         sentence-transformers, scikit-learn, nltk, numpy
 ### 1. Clone the Repository
 First, clone the project from GitHub and navigate into the root directory.
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/nitinlodhi019/AI-Resume-Screener/tree/main
 cd "AI Resume Screener"
 ```
 

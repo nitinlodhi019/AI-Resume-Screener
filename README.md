@@ -53,61 +53,45 @@ Category_______________________Technology
 **AI/ML Libraries**________________sentence-transformers, scikit-learn, nltk, numpy
 
 ## 📋 Prerequisites
-Python 3.8+
+- Python 3.8+
 
-Node.js 16+ (for the frontend)
+- Node.js 16+ (for the frontend)
 
-A free Supabase account
+- A free [Supabase](https://supabase.com/) account
 
-A Gmail account with 2FA enabled (for sending OTP emails)
+- A Gmail account with 2FA enabled (for sending OTP emails)
 
-🚀 Quick Start
-1. Clone the Repository
+## 🚀 Quick Start
+### 1. Clone the Repository
 First, clone the project from GitHub and navigate into the root directory.
 
 Bash
 
 git clone <your-repository-url>
 cd "AI Resume Screener"
-2. Create .gitignore
-It's crucial to prevent sensitive files (like .env) and large folders (like venv and uploads) from being uploaded to GitHub. Create a file named .gitignore in the root directory (AI Resume Screener/).
 
-Add the following content to your .gitignore file:
-
-# Python
-venv/
-__pycache__/
-*.pyc
-
-# Node
-node_modules/
-dist/
-.DS_Store
-
-# Environment
-.env
-
-# Uploads
-uploads/
-3. Backend Setup
+### 2. Backend Setup
 Navigate to the backend directory, create a virtual environment, and install the required Python packages.
 
-Bash
-
+```bash
 cd backend
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
-4. Frontend Setup
+```
+
+### 3. Frontend Setup
 In a new terminal, navigate to the frontend directory and install the required Node.js packages.
 
-Bash
-
+```bash
 cd frontend
 npm install
-5. Environment Configuration
+```
+
+### 4. Environment Configuration
 In the backend directory, create a .env file. This file is ignored by Git and should never be uploaded.
 
+```bash
 # Supabase Credentials
 SUPABASE_URL=https://your-project-ref.supabase.co
 SUPABASE_KEY=your_supabase_anon_key
@@ -115,11 +99,12 @@ SUPABASE_KEY=your_supabase_anon_key
 # Gmail SMTP Credentials for OTP
 SMTP_USER=your.email@gmail.com
 SMTP_PASS=your_gmail_app_password
-6. Database Setup (Supabase)
+```
+
+### 5. Database Setup (Supabase)
 Log in to your Supabase dashboard and run the following SQL query in the SQL Editor to create the users table.
-
+```bash
 SQL
-
 -- Create the users table
 CREATE TABLE users (
     id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
@@ -135,42 +120,42 @@ CREATE TABLE users (
     department TEXT,
     created_at TIMESTAMPTZ DEFAULT NOW()
 );
-7. Run the Application
+```
+
+### 6. Run the Application
 You'll need to run the backend and frontend in two separate terminals.
 
-Terminal 1: Run the Backend (from the backend directory)
-
-Bash
-
+**Terminal 1: Run the Backend (from the backend directory)**
+```bash
 # Make sure your virtual environment is activated
-flask run
+flask run or python app.py
+```
 Your backend will now be running on http://127.0.0.1:5000.
 
-Terminal 2: Run the Frontend (from the frontend directory)
-
-Bash
-
+**Terminal 2: Run the Frontend (from the frontend directory)**
+```bash
 npm run dev
+```
 Your frontend will open in your browser, usually at http://localhost:5173.
 
-🧠 AI/ML Pipeline Explained
+# AI/ML Pipeline Explained
 The resume screening process is a multi-stage pipeline designed for accuracy and relevance.
 
-Text Extraction: The system first extracts raw text from uploaded files, supporting .pdf and .docx formats.
+1. Text Extraction: The system first extracts raw text from uploaded files, supporting .pdf and .docx formats.
 
-Text Preprocessing: The raw text is cleaned using NLTK. This involves removing URLs, converting to lowercase, tokenizing, removing stop-words, and lemmatizing words.
+2. Text Preprocessing: The raw text is cleaned using NLTK. This involves removing URLs, converting to lowercase, tokenizing, removing stop-words, and lemmatizing words.
 
-Skill & Category Extraction: The processed text is scanned to identify hundreds of predefined skills and to assign the resume a primary job category (e.g., "Tech", "Design").
+3. Skill & Category Extraction: The processed text is scanned to identify hundreds of predefined skills and to assign the resume a primary job category (e.g., "Tech", "Design").
 
-Scoring Algorithm: A final score is calculated using a weighted average of three key metrics:
+4. Scoring Algorithm: A final score is calculated using a weighted average of three key metrics:
 
-Semantic Similarity (15%): Uses BERT embeddings to compare the contextual meaning of the resume against the job description.
+    - Semantic Similarity (15%): Uses BERT embeddings to compare the contextual meaning of the resume against the job description.
+    
+    - Skill Match (75%): The most important factor. It's the percentage of required skills found in the resume.
+    
+    - Experience Match (10%): Analyzes the resume text for years of experience or keywords like "senior" to match the required experience level.
 
-Skill Match (75%): The most important factor. It's the percentage of required skills found in the resume.
-
-Experience Match (10%): Analyzes the resume text for years of experience or keywords like "senior" to match the required experience level.
-
-📊 API Endpoints
+# API Endpoints
 A comprehensive RESTful API powers the application.
 
 Method	Endpoint	Description

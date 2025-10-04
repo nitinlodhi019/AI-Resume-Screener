@@ -52,8 +52,7 @@ Category_______________________Technology
 
 **AI/ML Libraries**____________sentence-transformers, scikit-learn, nltk, numpy
 
-Export to Sheets
-📋 Prerequisites
+## 📋 Prerequisites
 Python 3.8+
 
 Node.js 16+ (for the frontend)

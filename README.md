@@ -78,7 +78,7 @@ AI/ML Libraries         sentence-transformers, scikit-learn, nltk, numpy
 ### 1. Clone the Repository
 First, clone the project from GitHub and navigate into the root directory.
 ```bash
-git clone https://github.com/nitinlodhi019/AI-Resume-Screener/tree/main
+git clone https://github.com/nitinlodhi019/AI-Resume-Screener.git
 cd "AI Resume Screener"
 ```
 
@@ -88,7 +88,7 @@ Navigate to the backend directory, create a virtual environment, and install the
 ```bash
 cd backend
 python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
